@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@200&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: #043873;
+    width: 100%;
+    height: 10vh;
+    color: #FFFFFF;
+}
+
+header h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 1.5em;
+    align-content: center;
+    margin-right: 15vw;
+}
+
+header .logo{
+    color: black;
+    width: 3vw;
+    height: 3vh;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+header h2{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 1.1em;
+    margin-top: 7px;
+}
+
+header .downarrow{
+    margin-bottom: 1px;
+}
+
+header .login{
+    background-color: #FFE492;
+    border: none;
+    width: 6vw;
+    height: 6vh;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-left: 50px;
+    color: #043873;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+header .freetrial{
+    background-color: #4F9CF9;
+    border: none;
+    width: 15vw;
+    height: 6vh;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+.tela1{
+    background-color: #043873;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-around;
+}
+
+.tela1 .background{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+}
+
+.tela1 .background img{
+    max-width: -webkit-fill-available;
+}
+
+.tela1 .container-tela1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50vw;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.tela1 .container-tela1 h1{
+    font-size: 7vh;
+    margin-bottom: 10px;
+}
+
+.tela1 .container-tela1 p{
+    margin-bottom: 30px;
+}
+
+.tela1 .container-tela1 button{
+    background-color: #4F9CF9;
+    border: none;
+    width: 15vw;
+    height: 6vh;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+.tela2{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.tela2 .container{
+    display: flex;
+    padding: 20px;
+}
+
+.tela2 .worktogether{
+    margin-top: 30px;
+    width: 40%;
+}
+
+.tela2 .worktogether img{
+    width: 100%;
+}
+
+.tela2 .container .text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    margin-left: 70px;
+
+}
+
+.tela2 .container .text-box h1{
+    font-size: 7vh;
+}
+
+.tela2 .container .text-box p{
+    font-size: 0.8em;
+    margin-bottom: 30px;
+}
+
+.tela2 .container .text-box button{
+    background-color: #4F9CF9;
+    border: none;
+    width: 15vw;
+    height: 6vh;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: #043873;
+    width: 100%;
+    height: 10vh;
+    color: #FFFFFF;
+}
+
+footer h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 0.9em;
+    margin-left: 40px;
+
+}
+
+footer img{
+    margin-left: 500px;
+}
+
+
